@@ -6,10 +6,13 @@ function microondas(tempo, comida) {
         return 'tempo insuficiente'
       } else if (tempo >= 30) {
         return 'kabumm'
-      } 
+      } else {
+        return 'prato pronto bom apetite!!!' 
+      }
     }
   }
   
   console.log(microondas(1, 'pipoca'))
   console.log(microondas(35, 'pipoca'))
   console.log(microondas(25, 'pipoca'))
+  console.log(microondas(12, 'pipoca'))
